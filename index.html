@@ -1,464 +1,58 @@
-<!DOCTYPE html>
-<html lang=en>
+<!doctype html>
+<html lang="en">
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Jengyoyo Personal Website">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Jengyoyo Personal Website">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="Jengyoyo">
-<meta name="twitter:card" content="summary">
-    
-    
-      
-        
-          <link rel="shortcut icon" href="/images/favicon.ico">
-        
-      
-      
-        
-          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
-        
-      
-      
-        
-          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-        
-      
-    
-    <!-- title -->
-    <title>Jengyoyo Personal Website</title>
-    <!-- async scripts -->
-    <!-- Google Analytics -->
-
-
-    <!-- Umami Analytics -->
-
-
-    <!-- styles -->
-    
-<link rel="stylesheet" href="/css/style.css">
-
-    <!-- persian styles -->
-    
-    <!-- rss -->
-    
-    
-	<!-- mathjax -->
-	
-<!-- hexo injector head_end start -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
-
-<body class="max-width mx-auto px3 ltr">
-    
-    <div class="content index py4 h-card">
-        
-          <header id="header">
-  <a class="u-url u-uid" href="/">
-  
-    
-      <img id="logo" alt class="u-logo" src="/images/logo.png" />
-    
-  
-    <div id="title">
-      <h1 class="p-name">Jengyoyo Personal Website</h1>
-    </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-2x"></i></a>
-      </li>
-      <!--
-     --><li><a href="/">Home</a></li><!--
-   --><!--
-     --><li><a href="/about/">About</a></li><!--
-   --><!--
-     --><li><a href="/archives/">Articles</a></li><!--
-   --><!--
-     --><li><a href="/projects/">Projects</a></li><!--
-   --><!--
-     --><li><a href="/math/">Math</a></li><!--
-   -->
-    </ul>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Cheng-You Cheng is an NCKU Mathematics student and QUBO and AI researcher working on optimization, graph partitioning, and geometric detection.">
+  <meta property="og:title" content="Cheng-You Cheng | QUBO & AI Research">
+  <meta property="og:description" content="Mathematics, combinatorial optimization, and applied AI at National Cheng Kung University.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jeng-a-yo.github.io/">
+  <title>Cheng-You Cheng | QUBO &amp; AI Research</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080b12;--panel:#0e1420;--line:#202b3c;--text:#e8edf6;--muted:#a0aec0;--blue:#62b6ff;--mint:#72e0c0;--mono:ui-monospace,SFMono-Regular,Menlo,monospace;--sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 0%,#14273a 0,transparent 38rem),var(--bg);color:var(--text);font:16px/1.7 var(--sans)}a{color:inherit;text-decoration:none}a:hover{color:var(--mint)}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid #ffffff12}.brand{font-family:var(--mono);font-size:14px;letter-spacing:.04em}.brand b{color:var(--mint)}nav{display:flex;gap:25px;color:var(--muted);font-size:13px}.hero{padding:104px 0 88px;max-width:860px}.eyebrow,.label{font:12px var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--mint)}h1{font-size:clamp(42px,8vw,78px);line-height:1.05;letter-spacing:-.055em;margin:20px 0}h1 span{color:var(--blue)}.lede{font-size:clamp(18px,2.5vw,23px);color:#c1ccdb;max-width:720px;line-height:1.55}.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0}.pill{border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:#c8d3e2;font-size:12px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{border:1px solid var(--line);border-radius:8px;padding:10px 16px;font-size:14px}.button.primary{background:var(--blue);color:#07111d;border-color:var(--blue);font-weight:650}.section{padding:62px 0;border-top:1px solid #ffffff12}.section-head{display:flex;align-items:baseline;gap:16px;margin-bottom:25px}h2{font-size:25px;letter-spacing:-.03em;margin:0}.section-head .label{color:#74859b}.about{max-width:750px;color:#bac6d5}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:linear-gradient(145deg,#111a28,#0b1019);border:1px solid var(--line);border-radius:12px;padding:22px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#45617c}.card h3{margin:6px 0 9px;font-size:18px;line-height:1.4}.card p{margin:0;color:var(--muted);font-size:14px}.card .tag{font:11px var(--mono);color:var(--mint);letter-spacing:.08em;text-transform:uppercase}.arrow{float:right;color:var(--blue)}.teaching{display:grid;gap:14px}.teaching .card{display:flex;justify-content:space-between;gap:24px;align-items:flex-start}.teaching .card p{max-width:600px}.year{font:12px var(--mono);color:#8594a8;white-space:nowrap}.footer{padding:30px 0 48px;color:#8290a3;font-size:13px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer a{color:#cbd6e4}
+    @media(max-width:640px){.wrap{width:min(100% - 32px,1060px)}.nav{align-items:flex-start;gap:14px;flex-direction:column}nav{gap:17px;flex-wrap:wrap}.hero{padding:76px 0 64px}.grid{grid-template-columns:1fr}.section{padding:48px 0}.teaching .card{display:block}.year{display:block;margin-top:12px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="#top"><b>CY</b> / Cheng-You Cheng</a>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research &amp; Projects</a><a href="#teaching">Teaching</a><a href="https://github.com/jeng-a-yo" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+    </header>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow">Mathematics · Optimization · AI</div>
+        <h1 id="hero-title">Cheng-You<br><span>Cheng</span> 鄭丞佑</h1>
+        <p class="lede">I study how mathematical optimization and artificial intelligence can work together to solve structured, real-world problems.</p>
+        <div class="hero-meta"><span class="pill">National Cheng Kung University</span><span class="pill">Mathematics</span><span class="pill">QUBO &amp; AI Researcher</span></div>
+        <div class="actions"><a class="button primary" href="#research">Explore my work ↓</a><a class="button" href="https://github.com/jeng-a-yo" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+      </section>
+      <section class="section" id="about">
+        <div class="section-head"><h2>About</h2><span class="label">01 / Background</span></div>
+        <p class="about">I am a Mathematics student at National Cheng Kung University (NCKU), exploring the connections between combinatorial optimization and computer vision. My research centers on QUBO formulations and graph partitioning, with geometric detection as a way to connect mathematical models to visual data. I am a 2025 NSTC Undergraduate Research Project grantee.</p>
+      </section>
+      <section class="section" id="research">
+        <div class="section-head"><h2>Research &amp; Projects</h2><span class="label">02 / Selected work</span></div>
+        <div class="grid">
+          <a class="card" href="https://github.com/jeng-a-yo/Graph-Partitioning-via-QUBO-Optimization-and-YOLO-Geometric-Detection" target="_blank" rel="noreferrer"><span class="arrow">↗</span><span class="tag">NSTC Research · QUBO · YOLO</span><h3>Graph Partitioning via QUBO Optimization and YOLO Geometric Detection</h3><p>Connects YOLO-based geometric detection with a QUBO optimization approach to graph partitioning.</p></a>
+          <a class="card" href="https://github.com/jeng-a-yo/TSP-QUBO" target="_blank" rel="noreferrer"><span class="arrow">↗</span><span class="tag">Combinatorial Optimization</span><h3>TSP-QUBO</h3><p>Encodes the Traveling Salesperson Problem as a Quadratic Unconstrained Binary Optimization model.</p></a>
+          <a class="card" href="https://github.com/jeng-a-yo/Final-Project-Handeritten-recognizition" target="_blank" rel="noreferrer"><span class="arrow">↗</span><span class="tag">Deep Learning · Vision</span><h3>Handwritten Recognition</h3><p>Explores neural network methods for recognizing handwritten characters.</p></a>
+        </div>
+      </section>
+      <section class="section" id="teaching">
+        <div class="section-head"><h2>Teaching &amp; Leadership</h2><span class="label">03 / Community</span></div>
+        <div class="teaching">
+          <article class="card"><div><span class="tag">Teaching Assistant</span><h3>Generative AI-Assisted Python Programming</h3><p>Support students as they learn programming concepts and use generative AI thoughtfully in the coding process.</p></div><span class="year">NCKU</span></article>
+          <article class="card"><div><span class="tag">Teaching Assistant</span><h3>Introduction to Computer Science</h3><p>Help students build a clear foundation in core computer science concepts and computational thinking.</p></div><span class="year">NCKU</span></article>
+          <article class="card"><div><span class="tag">Folk Sports</span><h3>National Competition Excellent Award · Level C Coach</h3><p>Recognized at a national folk sports competition and certified as a Level C coach.</p></div><span class="year">Taiwan</span></article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><span>© Cheng-You Cheng · NCKU Mathematics</span><span><a href="https://github.com/jeng-a-yo" target="_blank" rel="noreferrer">GitHub</a></span></footer>
   </div>
-</header>
-
-        
-        <section id="about" class="p-note">
-  
-  
-    <p>
-      Find me on
-      
-      
-      
-        
-        
-          <a class="icon u-url" target="_blank" rel="noopener me" href="http://github.com/probberechts/cactus-dark" aria-label="github" title="github">
-            <i class="fa-brands fa-github"></i><!--
-      ---></a><!--
-    ---><!--
-    --->, 
-        
-      
-        
-        
-          <a class="icon u-url" target="_blank" rel="noopener me" href="/" aria-label="twitter" title="twitter">
-            <i class="fa-brands fa-twitter"></i><!--
-      ---></a><!--
-    ---><!--
-    --->, 
-        
-      
-        
-        
-          <a class="icon u-url" target="_blank" rel="noopener me" href="/" aria-label="facebook" title="facebook">
-            <i class="fa-brands fa-facebook"></i><!--
-      ---></a><!--
-    ---><!--
-    --->, 
-        
-      
-        
-        
-          <a class="icon u-email" target="_blank" rel="noopener" href="jackyyoyo2@gmail.com" aria-label="mail" title="mail">
-            <i class="fa-solid fa-envelope"></i><!--
-      ---></a>
-        <!--
-    --->, 
-        
-      
-        
-        
-          <a class="icon u-url" target="_blank" rel="noopener me" href="https://mastodon.social/@alice" aria-label="mastodon.social" title="mastodon.social">
-            <i class="fa-brands fa-mastodon"></i><!--
-      ---></a><!--
-    ---><!--
-    ---> and 
-        
-      
-        
-        
-          <a class="icon u-url" target="_blank" rel="noopener me" href="https://fosstodon.org/@alice" aria-label="fosstodon.org" title="fosstodon.org">
-            <i class="fa-brands fa-mastodon"></i><!--
-      ---></a><!--
-    ---><!--
-    --->.
-        
-      
-    </p>
-  
-</section>
-
-<!--
-
-<section id="writing">
-  <span class="h1"><a href="/">Writing</a></span>
-  
-  <ul class="post-list">
-    
-    
-      
-    
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-27T16:00:00.000Z" class="dt-published" itemprop="datePublished">2023-10-28</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/28/Euler_Project_1_10/">Euler Projecct Problem 01 ~ 10</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-27T09:08:41.000Z" class="dt-published" itemprop="datePublished">2023-10-27</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/27/a/">a</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T06:31:03.000Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/1A2B/">1A2B</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T06:31:03.000Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/Euler_Project/">Euler Projecct</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T03:14:25.777Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/hello-world/">Hello World</a>
-    
-
-
-</span>
-      </li>
-    
-  </ul>
-  
-</section>
-
--->
-
-<section id="writing">
-  <span class="h1"><a href="/">Projects</a></span>
-  
-  <ul class="post-list">
-    
-    
-      
-    
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-27T16:00:00.000Z" class="dt-published" itemprop="datePublished">2023-10-28</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/28/Euler_Project_1_10/">Euler Projecct Problem 01 ~ 10</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-27T09:08:41.000Z" class="dt-published" itemprop="datePublished">2023-10-27</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/27/a/">a</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T06:31:03.000Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/1A2B/">1A2B</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T06:31:03.000Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/Euler_Project/">Euler Projecct</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2023-10-26T03:14:25.777Z" class="dt-published" itemprop="datePublished">2023-10-26</time>
-        
-      
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2023/10/26/hello-world/">Hello World</a>
-    
-
-
-</span>
-      </li>
-    
-  </ul>
-  
-</section>
-
-
-<section id="categories" class="left">
-  <div class="category-list-title">
-      <span class="h1"><a href="/categories">Category</a></span>
-      
-      
-      No categories
-  </div>
-  <div class="category-list">
-    
-  </div>
-</section>
-
-        
-        <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy;
-    
-    
-    2020-2023
-    Jengyoyo
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-        <!--
-       --><li><a href="/">Home</a></li><!--
-     --><!--
-       --><li><a href="/about/">About</a></li><!--
-     --><!--
-       --><li><a href="/archives/">Articles</a></li><!--
-     --><!--
-       --><li><a href="/projects/">Projects</a></li><!--
-     --><!--
-       --><li><a href="/math/">Math</a></li><!--
-     -->
-      </ul>
-    </nav>
-  </div>
-</footer>
-
-    </div>
-    <!-- styles -->
-
-
-
-  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
-
-
-    <!-- jquery -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
-
-
-
-
-<!-- clipboard -->
-
-
-<script src="/js/main.js"></script>
-
-<!-- search -->
-
-<!-- Baidu Analytics -->
-
-<!-- Cloudflare Analytics -->
-
-<!-- Disqus Comments -->
-
-<!-- utterances Comments -->
-
 </body>
 </html>
