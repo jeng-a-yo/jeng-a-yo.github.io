@@ -113,7 +113,6 @@
     .button:hover { border-color: var(--blue); color: var(--blue); }
     .button-primary { border-color: var(--blue); background: var(--blue); color: #0b1420; }
     .button-primary:hover { background: #a8cbff; color: #0b1420; }
-    .button-pending { border-style: dashed; color: var(--quiet); cursor: not-allowed; }
     .intro-aside { border-left: 2px solid var(--orange); padding: 5px 0 5px 19px; color: var(--muted); font-size: 13px; }
     .intro-avatar {
       width: 126px;
@@ -239,7 +238,6 @@
           <p class="intro-copy">I’m Cheng-You Cheng, a Mathematics student at National Cheng Kung University. My work focuses on combinatorial optimization and computer vision: formulating structured problems with QUBO, then exploring how visual data can be translated into useful graph models.</p>
           <div class="hero-actions" aria-label="Quick links">
             <a class="button button-primary" href="https://github.com/jeng-a-yo/Graph-Partitioning-via-QUBO-Optimization-and-YOLO-Geometric-Detection">View research <span aria-hidden="true">↗</span></a>
-            <span class="button button-pending" aria-label="CV link pending">CV · link pending</span>
             <a class="button" href="mailto:jackyyoyo2@gmail.com">Email <span aria-hidden="true">↗</span></a>
           </div>
         </div>
@@ -247,7 +245,7 @@
           <img class="intro-avatar" src="images/avatar.jpg" alt="Illustrated avatar of Cheng-You Cheng" width="126" height="126">
           <strong>Research focus</strong>
           QUBO optimization, graph partitioning, and computer vision.
-          <div class="aside-line"><span>Research support</span>114 NSTC Undergraduate Research Project</div>
+          <div class="aside-line"><span>Research support</span>NSTC Undergraduate Student Research Project grant</div>
         </aside>
       </section>
 
@@ -266,17 +264,16 @@
       <section class="section" id="research" aria-labelledby="research-title">
         <h2 class="section-title" id="research-title"><small>02 / Selected work</small>Research &amp;<br>projects</h2>
         <div>
-          <p class="research-lead"><strong>114 NSTC Undergraduate Research Project.</strong> A study of graph partitioning through image-based graph extraction and QUBO optimization.</p>
+          <p class="research-lead"><strong>NSTC Undergraduate Student Research Project grant · ROC year 114 (2025).</strong> My study explores graph partitioning through image-based adjacency extraction and QUBO formulation.</p>
 
           <article class="project-card">
             <div class="project-head">
               <div>
-                <span class="project-kicker">NSTC research · 114</span>
+                <span class="project-kicker">Graph vision · QUBO optimization</span>
                 <h3>QUBO × Graph Vision</h3>
               </div>
-              <span class="status">Research project · 114</span>
             </div>
-            <p class="project-description">Explores a workflow that connects geometric graph extraction with QUBO formulations for graph partitioning. The repository includes graph-generation and image-processing experiments.</p>
+            <p class="project-description">I explored image-based adjacency extraction and QUBO formulations for graph partitioning. The public repository contains prototype work in both areas.</p>
             <p class="contribution"><b>Focus:</b> graph partitioning · computer vision · QUBO optimization.</p>
             <div class="project-links">
               <a href="https://github.com/jeng-a-yo/Graph-Partitioning-via-QUBO-Optimization-and-YOLO-Geometric-Detection">Read overview <span aria-hidden="true">↗</span></a>
@@ -289,9 +286,9 @@
               <div>
                 <span class="project-kicker">Optimization · last public commit 2025-02-03</span>
                 <h3>TSP-QUBO</h3>
-                <p>Implements a GPS-style QUBO formulation alongside dynamic-programming and brute-force solvers for comparison. The repository contains no benchmark summary to quote here.</p>
+                <p>Prototypes a GPS-style QUBO formulation and compares sample tours with Held–Karp dynamic programming and brute-force solvers.</p>
               </div>
-              <span class="status">Algorithm experiments</span>
+              <span class="status">QUBO + classical baselines</span>
               <div class="project-links">
                 <a href="https://github.com/jeng-a-yo/TSP-QUBO">Read overview <span aria-hidden="true">↗</span></a>
                 <a href="https://github.com/jeng-a-yo/TSP-QUBO/blob/main/tsp_gps.py">View code <span aria-hidden="true">↗</span></a>
@@ -300,10 +297,10 @@
             <article class="project-row">
               <div>
                 <span class="project-kicker">Deep learning</span>
-                <h3>Handwriting Recognition</h3>
-                <p>See the project repository for its implementation and documentation; I could not verify details or results from the checked local project files.</p>
+                <h3>Handwritten Digit Recognition</h3>
+                <p>An MNIST digit-recognition prototype using a small PyTorch CNN, with a Streamlit interface.</p>
               </div>
-              <span class="status">Project link</span>
+              <span class="status">PyTorch · MNIST</span>
               <div class="project-links">
                 <a href="https://github.com/jeng-a-yo/Final-Project-Handeritten-recognizition">Read overview <span aria-hidden="true">↗</span></a>
                 <a href="https://github.com/jeng-a-yo/Final-Project-Handeritten-recognizition">View code <span aria-hidden="true">↗</span></a>
@@ -318,15 +315,15 @@
         <div>
           <div class="experience-list">
             <article class="experience">
-              <div class="experience-term">113-1 · 114-1<br>NCKU</div>
+              <div class="experience-term">ROC academic years<br>113-1 · 114-1 · NCKU</div>
               <div><h3>Teaching Assistant · Generative AI-Assisted Python Programming</h3><p>Graded assignments, helped students debug their code, and assessed final projects. Modular curriculum.</p></div>
             </article>
             <article class="experience">
-              <div class="experience-term">113-2<br>NCKU Mathematics</div>
+              <div class="experience-term">ROC academic year<br>113-2 · NCKU Mathematics</div>
               <div><h3>Teaching Assistant · Introduction to Computer Science and Programming Languages</h3><p>Prepared midterm exam questions and graded assignments.</p></div>
             </article>
             <article class="experience">
-              <div class="experience-term">113-1<br>NCKU History</div>
+              <div class="experience-term">ROC academic year<br>113-1 · NCKU History</div>
               <div><h3>Teaching Assistant · Digital Tools for Historical Research</h3><p>Coordinated assignment collection, followed up on submissions, and supported students during instruction on Obsidian extensions.</p></div>
             </article>
           </div>
